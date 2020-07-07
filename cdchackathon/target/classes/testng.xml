@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EmiCarLoan">
+
+	<listeners>
+		<listener
+			class-name="com.cdchackathon.extentreport.ExtenetReportListener">
+		</listener>
+
+	</listeners>
+
+	<test name="CaseStudy">
+		<classes>
+			<class name="com.cdchackathon.testcase.casestudy.CaseStudy"></class>
+		</classes>
+	</test>
+
+
+	<test name="HomeLoanPage">
+		<classes>
+			<class
+				name="com.cdchackathon.testcase.webpage.HomeLoanPageTest"></class>
+		</classes>
+	</test>
+
+	<test name="CarLoanPage">
+		<classes>
+			<class name="com.cdchackathon.testcase.webpage.CarLoanPageTest"></class>
+		</classes>
+	</test>
+
+	<test name="FormField">
+		<classes>
+			<class
+				name="com.cdchackathon.testcase.formfields.FormFieldTest"></class>
+		</classes>
+	</test>
+
+
+
+</suite>

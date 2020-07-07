@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="11" failed="11" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-07T10:43:42 IST" name="EmiCarLoan" finished-at="2020-07-07T10:48:56 IST" duration-ms="314394">
+    <groups>
+    </groups>
+    <test started-at="2020-07-07T10:43:42 IST" name="CaseStudy" finished-at="2020-07-07T10:44:11 IST" duration-ms="28541">
+      <class name="com.cdchackathon.testcase.casestudy.CaseStudy">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:43:42 IST" name="setUp" finished-at="2020-07-07T10:43:52 IST" duration-ms="10452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:1, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:43:52 IST" name="getTitle" finished-at="2020-07-07T10:43:53 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:43:53 IST" name="tearDown" finished-at="2020-07-07T10:43:53 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:43:54 IST" name="setUp" finished-at="2020-07-07T10:44:05 IST" duration-ms="11488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:44:05 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:44:09 IST" duration-ms="3756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.casestudy.CaseStudy@11a9e7c8]" started-at="2020-07-07T10:44:09 IST" name="tearDown" finished-at="2020-07-07T10:44:11 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cdchackathon.testcase.casestudy.CaseStudy -->
+    </test> <!-- CaseStudy -->
+    <test started-at="2020-07-07T10:44:11 IST" name="HomeLoanPage" finished-at="2020-07-07T10:44:19 IST" duration-ms="7518">
+      <class name="com.cdchackathon.testcase.webpage.HomeLoanPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.webpage.HomeLoanPageTest@419c5f1a]" started-at="2020-07-07T10:44:11 IST" name="setUp" finished-at="2020-07-07T10:44:17 IST" duration-ms="6066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:0, instance:com.cdchackathon.testcase.webpage.HomeLoanPageTest@419c5f1a]" started-at="2020-07-07T10:44:17 IST" name="getTitle" finished-at="2020-07-07T10:44:17 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.webpage.HomeLoanPageTest@419c5f1a]" started-at="2020-07-07T10:44:17 IST" name="tearDown" finished-at="2020-07-07T10:44:19 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cdchackathon.testcase.webpage.HomeLoanPageTest -->
+    </test> <!-- HomeLoanPage -->
+    <test started-at="2020-07-07T10:44:19 IST" name="CarLoanPage" finished-at="2020-07-07T10:44:31 IST" duration-ms="11673">
+      <class name="com.cdchackathon.testcase.webpage.CarLoanPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.webpage.CarLoanPageTest@78aab498]" started-at="2020-07-07T10:44:19 IST" name="setUp" finished-at="2020-07-07T10:44:27 IST" duration-ms="7785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.webpage.CarLoanPageTest@78aab498]" started-at="2020-07-07T10:44:27 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:44:30 IST" duration-ms="3398" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [131525] but found [438418]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [131525] but found [438418]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.webpage.CarLoanPageTest.clickLoanPage(CarLoanPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.webpage.CarLoanPageTest@78aab498]" started-at="2020-07-07T10:44:30 IST" name="tearDown" finished-at="2020-07-07T10:44:31 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cdchackathon.testcase.webpage.CarLoanPageTest -->
+    </test> <!-- CarLoanPage -->
+    <test started-at="2020-07-07T10:44:31 IST" name="FormField" finished-at="2020-07-07T10:48:56 IST" duration-ms="265704">
+      <class name="com.cdchackathon.testcase.formfields.FormFieldTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:31 IST" name="setUp" finished-at="2020-07-07T10:44:38 IST" duration-ms="7499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:38 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:44:41 IST" duration-ms="2265" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [131525] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [131525] but found [NaN]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:41 IST" name="tearDown" finished-at="2020-07-07T10:44:43 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:43 IST" name="setUp" finished-at="2020-07-07T10:44:53 IST" duration-ms="10892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:53 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:44:58 IST" duration-ms="4589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfhkdsfh dsfjhdfkhsdkf i1212sdfsdfsdg2fd3gdfasdfg1312jhskdfhsjkdhfkjjshdhfkjjsdhfkj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[106292699]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:44:58 IST" name="tearDown" finished-at="2020-07-07T10:45:01 IST" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:01 IST" name="setUp" finished-at="2020-07-07T10:45:10 IST" duration-ms="9491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:10 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:45:15 IST" duration-ms="4495" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sdfkjdshfkj#@$@#$@#$"}::{}}{@#$@#$?!@!@#!@#!@#!@3!@#!#$#$}}{:""4}{{}""5}@#$#@$@#}"""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [30] but found [43841786]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [30] but found [43841786]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:15 IST" name="tearDown" finished-at="2020-07-07T10:45:16 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:16 IST" name="setUp" finished-at="2020-07-07T10:45:26 IST" duration-ms="9952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:26 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:45:30 IST" duration-ms="4047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15sdf,00@@#:">,000@W#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:30 IST" name="tearDown" finished-at="2020-07-07T10:45:31 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:31 IST" name="setUp" finished-at="2020-07-07T10:45:36 IST" duration-ms="5492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:36 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:45:40 IST" duration-ms="3728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfhkjdasfksdgfkjsdgakfgsdkfgdskgfgkasdhfkdsgfkjKDHFKSDHFKDSFJKDSHFKDSJFHKJDDHFLA:AWIOPRUEIYTWTBVDSBKGDQOWRNDADNFL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:40 IST" name="tearDown" finished-at="2020-07-07T10:45:42 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:42 IST" name="setUp" finished-at="2020-07-07T10:45:53 IST" duration-ms="10580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:53 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:45:57 IST" duration-ms="4050" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{{:F"FG::"}}"::@#%@#}??":"}""""}@#@#$@#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0] but found [438418]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0] but found [438418]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:57 IST" name="tearDown" finished-at="2020-07-07T10:45:58 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:45:58 IST" name="setUp" finished-at="2020-07-07T10:46:04 IST" duration-ms="6855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:04 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:46:12 IST" duration-ms="7248" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [NaN] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [NaN] but found [0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:12 IST" name="tearDown" finished-at="2020-07-07T10:46:13 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:13 IST" name="setUp" finished-at="2020-07-07T10:46:23 IST" duration-ms="9797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:23 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:46:26 IST" duration-ms="3372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfkhsdkjfh dsfu3hsdkjfhsdlhfkerhherkth1erkht]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[146970]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:26 IST" name="tearDown" finished-at="2020-07-07T10:46:26 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:26 IST" name="setUp" finished-at="2020-07-07T10:46:33 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:33 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:46:37 IST" duration-ms="4312" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#$%#$%#$%@#$2@#$@#$@#$D{}{:}:":":}::":":#"":";]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[126358]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [126358] but found [421194462779]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [126358] but found [421194462779]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:37 IST" name="tearDown" finished-at="2020-07-07T10:46:38 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:38 IST" name="setUp" finished-at="2020-07-07T10:46:48 IST" duration-ms="9650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:48 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:46:52 IST" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{}:"}{:@$@#$@#SGSDGSD#$%#$%#$%@#$@#$@#$@#$D{}{:}:":":}::":":#"":";GSD32SFDGSFWEQWTY}:<<?}|{:]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[147710]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:52 IST" name="tearDown" finished-at="2020-07-07T10:46:53 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:53 IST" name="setUp" finished-at="2020-07-07T10:46:59 IST" duration-ms="5998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:46:59 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:47:03 IST" duration-ms="3532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdkjfhsdjkhfwehrwkjehtjksdgjsdkhgjksdhflsdhflhdlfhdlfhldfksfhwle rxcn,z,l,zqpeoruwtumcb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[128411]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:03 IST" name="tearDown" finished-at="2020-07-07T10:47:03 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:03 IST" name="setUp" finished-at="2020-07-07T10:47:07 IST" duration-ms="4564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:07 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:47:11 IST" duration-ms="3743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[128411]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:11 IST" name="tearDown" finished-at="2020-07-07T10:47:11 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:11 IST" name="setUp" finished-at="2020-07-07T10:47:16 IST" duration-ms="4307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:16 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:47:33 IST" duration-ms="16840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:33 IST" name="tearDown" finished-at="2020-07-07T10:47:33 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:33 IST" name="setUp" finished-at="2020-07-07T10:47:37 IST" duration-ms="4554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:37 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:47:41 IST" duration-ms="3885" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dfkhsdkjfh dsfu3hsdkjfhsdlhfkerhherkth1erkht]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12542]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12542] but found [4384175720225]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12542] but found [4384175720225]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:41 IST" name="tearDown" finished-at="2020-07-07T10:47:44 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:44 IST" name="setUp" finished-at="2020-07-07T10:47:51 IST" duration-ms="7419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:51 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:47:55 IST" duration-ms="3986" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#$%#$%#$%@#$2@#$@#$@#$D{}{:}:":":}::":":#"":";]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[68872]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [68872] but found [131525]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [68872] but found [131525]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:55 IST" name="tearDown" finished-at="2020-07-07T10:47:56 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:47:56 IST" name="setUp" finished-at="2020-07-07T10:48:00 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:00 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:48:05 IST" duration-ms="4597" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}:"}{:@$@#$@#SGSDGSD#$%#$%#$%@#$@#$@#$@#$D{}{:}:":":}::":":#"":";GSD32SFDGSFWEQWTY}:<<?}|{:]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12479]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12479] but found [131525]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12479] but found [131525]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:05 IST" name="tearDown" finished-at="2020-07-07T10:48:05 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:05 IST" name="setUp" finished-at="2020-07-07T10:48:11 IST" duration-ms="6256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:11 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:48:16 IST" duration-ms="4477" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [131525] but found [43841756]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [131525] but found [43841756]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:16 IST" name="tearDown" finished-at="2020-07-07T10:48:17 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:17 IST" name="setUp" finished-at="2020-07-07T10:48:25 IST" duration-ms="8392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoanPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:25 IST" name="clickLoanPage" data-provider="getCarLoanTestData" finished-at="2020-07-07T10:48:56 IST" duration-ms="30720" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[131525]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [131525] but found [43750]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [131525] but found [43750]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.cdchackathon.pages.CarLoan.getEmi(CarLoan.java:64)
+at com.cdchackathon.testcase.formfields.FormFieldTest.clickLoanPage(FormFieldTest.java:39)
+at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cdchackathon.testcase.formfields.FormFieldTest@48fa0f47]" started-at="2020-07-07T10:48:56 IST" name="tearDown" finished-at="2020-07-07T10:48:56 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cdchackathon.testcase.formfields.FormFieldTest -->
+    </test> <!-- FormField -->
+  </suite> <!-- EmiCarLoan -->
+</testng-results>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.604" tests="60" errors="0" skipped="57" failures="3">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jai/eclipse-workspace/cdchackathon/target/test-classes:/home/jai/eclipse-workspace/cdchackathon/target/classes:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/var/lib/jenkins/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/var/lib/jenkins/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/var/lib/jenkins/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/var/lib/jenkins/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/var/lib/jenkins/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/var/lib/jenkins/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/var/lib/jenkins/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/var/lib/jenkins/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/var/lib/jenkins/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/var/lib/jenkins/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/var/lib/jenkins/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/var/lib/jenkins/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/var/lib/jenkins/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/var/lib/jenkins/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/var/lib/jenkins/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/var/lib/jenkins/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/var/lib/jenkins/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/var/lib/jenkins/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/var/lib/jenkins/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/var/lib/jenkins/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/var/lib/jenkins/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/var/lib/jenkins/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/var/lib/jenkins/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/var/lib/jenkins/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/var/lib/jenkins/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/var/lib/jenkins/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/var/lib/jenkins/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/var/lib/jenkins/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/var/lib/jenkins/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/var/lib/jenkins/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/var/lib/jenkins/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/jai/eclipse-workspace/cdchackathon/target/surefire/surefirebooter9393183641568957299.jar /home/jai/eclipse-workspace/cdchackathon/target/surefire 2020-07-05T17-24-53_958-jvmRun1 surefire3900133549840296761tmp surefire_05500616801968646229tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/jai/eclipse-workspace/cdchackathon/target/test-classes:/home/jai/eclipse-workspace/cdchackathon/target/classes:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/var/lib/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/var/lib/jenkins/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/var/lib/jenkins/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/var/lib/jenkins/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/var/lib/jenkins/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/var/lib/jenkins/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/var/lib/jenkins/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/var/lib/jenkins/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/var/lib/jenkins/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/var/lib/jenkins/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/var/lib/jenkins/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/var/lib/jenkins/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/var/lib/jenkins/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/var/lib/jenkins/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/var/lib/jenkins/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/var/lib/jenkins/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/var/lib/jenkins/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/var/lib/jenkins/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/var/lib/jenkins/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/var/lib/jenkins/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/var/lib/jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/var/lib/jenkins/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/var/lib/jenkins/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/var/lib/jenkins/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/var/lib/jenkins/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/var/lib/jenkins/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/var/lib/jenkins/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/var/lib/jenkins/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/var/lib/jenkins/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/var/lib/jenkins/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/var/lib/jenkins/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/var/lib/jenkins/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/var/lib/jenkins/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/var/lib/jenkins/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/jai/eclipse-workspace/cdchackathon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/jai/eclipse-workspace/cdchackathon/target/surefire/surefirebooter9393183641568957299.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.3.0-62-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/var/lib/jenkins/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="/home/jai/eclipse-workspace/cdchackathon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="2.509">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x561eb49e5579 <unknown>
+
+	at com.cdchackathon.testcase.formfields.FormFieldTest.setUp(FormFieldTest.java:24)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 2797
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x561eb49e5579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.formfields.FormFieldTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.webpage.CarLoanPageTest" time="0.312">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a8865d2579 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a8865d2579 <unknown>
+
+	at com.cdchackathon.testcase.webpage.CarLoanPageTest.setUp(CarLoanPageTest.java:24)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 15528
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="clickLoanPage" classname="com.cdchackathon.testcase.webpage.CarLoanPageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a8865d2579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.webpage.CarLoanPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.cdchackathon.testcase.webpage.HomeLoanPageTest" time="0.306">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a155947579 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a155947579 <unknown>
+
+	at com.cdchackathon.testcase.webpage.HomeLoanPageTest.setUp(HomeLoanPageTest.java:22)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 18276
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="getTitle" classname="com.cdchackathon.testcase.webpage.HomeLoanPageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;jai&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-62-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a155947579 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cdchackathon.testcase.webpage.HomeLoanPageTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

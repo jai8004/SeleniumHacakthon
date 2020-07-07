@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.cdchackathon.testcase.webpage.CarLoanPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="clickLoanPage"/>
+        </methods>
+      </class> <!-- com.cdchackathon.testcase.webpage.CarLoanPageTest -->
+      <class name="com.cdchackathon.testcase.formfields.FormFieldTest">
+        <methods>
+          <include name="clickLoanPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cdchackathon.testcase.formfields.FormFieldTest -->
+      <class name="com.cdchackathon.testcase.webpage.HomeLoanPageTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cdchackathon.testcase.webpage.HomeLoanPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

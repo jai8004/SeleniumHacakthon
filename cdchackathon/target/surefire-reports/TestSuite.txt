@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 60, Failures: 3, Errors: 0, Skipped: 57, Time elapsed: 3.604 s <<< FAILURE! - in TestSuite
+setUp(com.cdchackathon.testcase.formfields.FormFieldTest)  Time elapsed: 2.509 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x561eb49e5579 <unknown>
+
+	at com.cdchackathon.testcase.formfields.FormFieldTest.setUp(FormFieldTest.java:24)
+
+setUp(com.cdchackathon.testcase.webpage.CarLoanPageTest)  Time elapsed: 0.312 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a8865d2579 <unknown>
+
+	at com.cdchackathon.testcase.webpage.CarLoanPageTest.setUp(CarLoanPageTest.java:24)
+
+setUp(com.cdchackathon.testcase.webpage.HomeLoanPageTest)  Time elapsed: 0.306 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jai', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-62-generic', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a155947579 <unknown>
+
+	at com.cdchackathon.testcase.webpage.HomeLoanPageTest.setUp(HomeLoanPageTest.java:22)
+
